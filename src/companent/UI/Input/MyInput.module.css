@@ -1,0 +1,12 @@
+.myInput {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 15px;
+  
+    background: transparent;
+    color: white;
+    border: 1px solid #646cff;
+    border-radius: 5px;
+    outline: none;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
