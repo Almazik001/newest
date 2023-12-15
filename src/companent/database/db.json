@@ -1,0 +1,39 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Almaz",
+      "age": 18,
+      "address": "Dolan"
+    },
+    {
+      "id": 2,
+      "name": "Ivan",
+      "age": 16,
+      "address": "Zvezda"
+    },
+    {
+      "id": 3,
+      "name": "Kiria",
+      "age": 19,
+      "address": "Kaskelen"
+    }
+  ],
+  "rooms": [
+    {
+      "city": "Almaty",
+      "number-rooms": 26,
+      "entrance": 2
+    },
+    {
+      "city": "Astana",
+      "number-rooms": 30,
+      "entrance": 1
+    },
+    {
+      "city": "Kaskelen",
+      "number-rooms": 6,
+      "entrance": 3
+    }
+  ]
+}
