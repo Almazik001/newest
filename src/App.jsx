@@ -20,6 +20,8 @@ function App() {
     setPosts([...posts.filter(p => p.id !== post.id)])
   }
 
+  
+
   return (
     <div className='App'>
       <PostForm create={createPost}  />
