@@ -29,7 +29,7 @@ const PostForm = ({create}) => {
                 placeholder='Введите описание поста'
                 onChange={e => setPost({...post, body: e.target.value})}
             />
-            <MyButton onClick={AddNewPost} >Добавить</MyButton>
+            <MyButton onClick={AddNewPost}>Добавить</MyButton>
         </form>
     );
 };
