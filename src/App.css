@@ -5,8 +5,6 @@
 
 .App {
   width: 800px;
-  margin: 0 auto;
-  
 }
 
 .post {
@@ -16,21 +14,21 @@
   border: 1px solid #646cff;
   border-radius: 5px;
   padding: 20px;
-  margin: 15px;
   width: 97.5%;
+  margin: 15px 0px;
 }
 
 .form input {
-  width: 100%;
+  width: 96%;
   padding: 10px;
-  margin: 5px 15px;
+  margin: 5px 0px;
 
   background: transparent;
-  color: white;
+  color: black;
   border: 1px solid #646cff;
   border-radius: 5px;
 }
 
 .form button {
-  margin: 10px 15px;
+  margin: 10px 0px;
 }
