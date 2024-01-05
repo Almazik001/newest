@@ -10,9 +10,12 @@ import PostService from "./API/PostService.js";
 import Loader from "./companent/UI/Loader/Loader.jsx";
 import {useFetching} from "./hooks/useFetching.js";
 
+// ______________________________________________________________
 
 
 function App() {
+
+// ______________________________________________________________
 
   const [posts, setPosts] = useState([]);
   const [filter, setFilter] = useState({sort: '', query: ''});
@@ -22,10 +25,8 @@ function App() {
   const [limit, setLimit] = useState(10);
   const [page, setPage] = useState(1)
   const [fetchPosts, isPostLoading, postError] = useFetching( async () => {
-      const response = await PostService.getAll(limit, page);
-      setPosts(response.data)
-      const totalCount = response.headers['x-total-count']
-      setTotalPages(getPageCount(totalCount, limit))
+    const response = await PostService.getAll();
+    setPosts(response.data)
   })
 
   console.log(totalPages)
@@ -41,6 +42,8 @@ function App() {
   useEffect(() => {
     fetchPosts()
   }, [])
+
+  // ______________________________________________________________
 
   return (
     <div className='App'>
